@@ -1,0 +1,92 @@
+[
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Amy",
+		"character" : "",
+		"picture": "img/amy.png",
+		"playing": true,
+		"sound": ["audio/amy.ogg"]
+	},
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Sarah",
+		"character" : "",
+		"picture": "img/sarah.png",
+		"playing": true,
+		"sound": ["audio/sarah.ogg"]
+	},
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Sally",
+		"character" : "",
+		"picture": "img/sally.png",
+		"playing": true,
+		"sound": ["audio/sally.ogg"]
+	},
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Sarina",
+		"character" : "",
+		"picture": "img/sarina.png",
+		"playing": true,
+		"sound": ["audio/sarina.ogg"]
+	} ,
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Chris",
+		"character" : "",
+		"picture": "img/chris.png",
+		"playing": true,
+		"sound": ["audio/chris.ogg"]
+	},
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Will",
+		"character" : "",
+		"picture": "img/will.png",
+		"playing": true,
+		"sound": ["audio/kill.ogg"]
+	},
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Nick M",
+		"character" : "",
+		"picture": "img/nickm.png",
+		"playing": true,
+		"sound": ["audio/nickm.ogg"]
+	},
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Nick G",
+		"character" : "",
+		"picture": "img/nickg.png",
+		"playing": true,
+		"sound": ["audio/nickg.ogg"]
+	},
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Mike",
+		"character" : "",
+		"picture": "img/mike.png",
+		"playing": true,
+		"sound": ["audio/mike1.ogg","audio/mike2.ogg","audio/mike3.ogg","audio/mike4.ogg"]
+	},
+	{
+		"isFlipped": false,
+		"isDead": false,
+		"player": "Eddy",
+		"character" : "",
+		"picture": "img/eddy.png",
+		"playing": true,
+		"sound": ["audio/eddy.ogg"]
+	}
+]

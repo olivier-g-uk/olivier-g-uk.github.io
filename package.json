@@ -1,0 +1,23 @@
+{
+  "name": "ngwerewolf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ngWerewolf.js",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-animate": "^1.8.2",
+    "angular-aria": "^1.8.2",
+    "angular-material": "^1.2.1",
+    "angular-messages": "^1.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "''"
+  },
+  "author": "",
+  "license": "ISC"
+}

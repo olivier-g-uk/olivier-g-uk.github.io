@@ -1,0 +1,32 @@
+[    
+	{
+      	"name":  "Fortune Teller",
+        "picture": "img/fortune_teller.jpg",
+		"selected": true
+	},
+	{
+      	"name":  "Thief",
+        "picture": "img/thief.jpg",
+		"selected": false
+	},
+	{
+      	"name":  "Little girl",
+        "picture": "img/little_girl.jpg",
+		"selected": false
+	},
+	{
+      	"name":  "Sheriff",
+        "picture": "img/sheriff.jpg",
+		"selected": false
+	},
+	{
+      	"name":  "Witch",
+        "picture": "img/witch.jpg",
+		"selected": false
+	},
+	{
+      	"name":  "Cupid",
+        "picture": "img/cupid.jpg",
+		"selected": false
+	}
+]

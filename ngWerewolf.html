@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app='ngWerewolf'>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="ngWerewolf.css">
+    <link rel="stylesheet" href="/node_modules/angular-material/angular-material.css">
+    <title>Fourteener's Hallowerewolf !</title>
+  </head> 
+
+  <body ng-controller="cardCtrl">
+    <div id="gameContainer">
+      <div id="character_selection">
+        <div class="character" ng-class="{'selected':character.selected}" ng-repeat="character in characters" >
+          <img src="{{character.picture}}" ng-click="pick(character)" title="{{character.name}}">
+        </div>
+        <md-button class="md-raised md-primary" ng-click="shuffle(characters)">Select characters</md-button>
+        <md-button class="md-raised md-primary" ng-click="reset_cards(cards)">Reset</md-button>
+      </div>
+      <div id="gameboard" ng-class="{'ready':game_started}">
+        <div class="tile" ng-class="{'isdead':card.isDead}" ng-repeat="card in cards" >
+          <span>#{{$index +1}} : {{card.player}}</span>
+          <md-button class="md-raised md-accent" ng-click="kill(card)">Kill</md-button>
+          <div class="card" ng-class="{'flipped':card.isFlipped}">
+            <img class="face front" ng-class="{'isdead':card.isDead}" src="{{card.picture}}" ng-click="select(card)">
+            <img class="face back" src="{{card.img}}" ng-click="select(card)">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/node_modules/angular-aria/angular-aria.js"></script>
+    <script src="/node_modules/angular-animate/angular-animate.js"></script>
+    <script src="/node_modules/angular-messages/angular-messages.js"></script>
+    <script src="/node_modules/angular-material/angular-material.js"></script>
+    <!-- <script src="angular.min.js"></script> -->
+    <script src="ngWerewolf.js"></script> 
+  </body>
+
+</html>
